@@ -9,5 +9,23 @@ public class Student {
         this.batch = batch;
     }
 
-    // Getters and Setters
+    public String getPrn() {
+        return prn;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getBatch() {
+        return batch;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setBatch(String batch) {
+        this.batch = batch;
+    }
 }
